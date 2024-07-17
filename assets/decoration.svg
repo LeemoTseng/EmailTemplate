@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 227.17 95.12">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #f7941d;
+      }
+
+      .cls-3, .cls-4 {
+        opacity: .5;
+      }
+
+      .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        fill: #0074bc;
+        mix-blend-mode: hue;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="227.17" height="95.12"/>
+    </clipPath>
+  </defs>
+  <g class="cls-5">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="_圖層_1" data-name="圖層 1">
+        <g class="cls-1">
+          <g>
+            <polygon class="cls-4" points="229.31 71.67 138.03 -4.06 229.31 -4.06 229.31 71.67"/>
+            <polygon class="cls-3" points="230.77 30.84 3.64 -4.06 230.77 -4.06 230.77 30.84"/>
+            <polygon class="cls-4" points="229.31 50.51 138.03 -4.06 229.31 -4.06 229.31 50.51"/>
+            <polygon class="cls-3" points="230.77 30.84 94.43 -4.06 230.77 -4.06 230.77 30.84"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
