@@ -1,0 +1,205 @@
+<p>Dear {user.FirstName},</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your registration for T.H.I. 2024 annual meeting was updated successfully and you can update all information through the following link. We sincerely welcome your participation and look forward to seeing you soon.</p>
+<a href=""{registrationLink}"">{registrationLink}</a>
+<p>Your information belongs to:</p>
+<h3>Basic Information</h3>
+<table style=""width: 90%;"">
+<tr>
+   <td colspan=""2"">
+   <label>Company Name: </label>
+   <span>{user.CompanyName}</span>
+   </td>
+</tr>
+<tr>
+   <td style=""width: 30%;"">
+   <label>First Name: </label>
+   <span>{user.FirstName}</span>
+   </td>
+   <td style=""width: 30%;"">
+   <label>Last Name: </label>
+   <span>{user.LastName}</span>
+   </td>
+   <td style=""width: 30%;"">
+   <label>Gender: </label>
+   <span>{user.Gender}</span>
+   </td>
+</tr>
+<tr>
+   <td style=""width: 30%;"">
+   <label>Position: </label>
+   <span>{user.Position}</span>
+   </td>
+   <td style=""width: 30%;"">
+   <label>Branch: </label>
+   <span>{user.Branch}</span>
+   </td>
+</tr>
+<tr>
+   <td colspan=""2"">
+   <label>Email: </label>
+   <span>{user.Email}</span>
+   </td>
+</tr>
+<tr>
+   <td style=""width: 30%;"">
+   <label>Date of Birth: </label>
+   <span>{dateofBirth}</span>
+   </td>
+   <td style=""width: 30%;"">
+   <label>Passport No.: </label>
+   <span>{user.PassportNo}</span>
+   </td>
+   <td style=""width: 30%;"">
+   <label>Nationality: </label>
+   <span>{user.Nationality}</span>
+   </td>
+</tr>
+<tr>
+   <td colspan=""2"">
+   <label>Room Type: </label>
+   <span>{user.RoomType}</span>
+   </td>
+</tr>
+<tr>
+   <td colspan=""3"">
+   <label>Special Requests: </label>
+   <span>{user.SpecialRequests}</span>
+   </td>
+</tr>
+</table>
+<h3>Other Information</h3>
+<table style=""width: 90%;"">
+<tr>
+   <td style=""width: 45%;"">
+   <label>Visa No.: </label>
+   <span>{user.VisaNo}</span>
+   </td>
+   <td style=""width: 45%;"">
+   <label>Visa Expiry Date: </label>
+   <span>{expiryDate}</span>
+   </td>
+</tr>
+<tr>
+   <td style=""width: 45%;"">
+   <label>Entry airport of Vietnam immigration: </label>
+   <span>{user.AirportOfEntry}</span>
+   </td>
+</tr>
+<tr>
+   <td style=""width: 45%;"">
+   <label>Arrival Date and Time: </label>
+   <span>{arrivalDateTime}</span>
+   </td>
+   <td style=""width: 45%;"">
+   <label>Arrival Flight No.: </label>
+   <span>{user.ArrivalFlightNo}</span>
+   </td>
+</tr>
+<tr>
+   <td style=""width: 45%;"">
+   <label>Departure Date and Time: </label>
+   <span>{departureDateTime}</span>
+   </td>
+   <td style=""width: 45%;"">
+   <label>Departure Flight No.: </label>
+   <span>{user.DepartureFlightNo}</span>
+   </td>
+</tr>
+<tr>
+   <td colspan=""2"">
+   <label>Transportation Options: </label>
+   <span>{user.Transportation}</span>
+   </td>
+</tr>
+<td colspan=""2"">
+<label>Meal Preferences: </label>
+<span>{user.Meal}</span>
+</td>
+</tr>
+<td colspan=""2"">
+<label>Meeting Requests: </label>
+<span>{user.SelectedTeams}</span>
+</td>
+</tr>
+</table>
+<p>Family information belongs to:</p>
+<h3>Basic Information</h3>
+<table style=""width: 90%;"">
+<tr>
+   <td style=""width: 30%;"">
+   <label>First Name: </label>
+   <span>{family.FirstName}</span>
+   </td>
+   <td style=""width: 30%;"">
+   <label>Last Name: </label>
+   <span>{family.LastName}</span>
+   </td>
+   <td style=""width: 30%;"">
+   <label>Gender: </label>
+   <span>{family.Gender}</span>
+   </td>
+</tr>
+<tr>
+   <td style=""width: 30%;"">
+   <label>Date of Birth: </label>
+   <span>{fdateofBirth}</span>
+   </td>
+   <td style=""width: 30%;"">
+   <label>Passport No.: </label>
+   <span>{family.PassportNo}</span>
+   </td>
+   <td style=""width: 30%;"">
+   <label>Nationality: </label>
+   <span>{family.Nationality}</span>
+   </td>
+</tr>
+<tr>
+   <td colspan=""3"">
+   <label>Special Requests: </label>
+   <span>{family.SpecialRequests}</span>
+   </td>
+</tr>
+</table>
+<h3>Other Information</h3>
+<table style=""width: 90%;"">
+<tr>
+   <td style=""width: 45%;"">
+   <label>Visa No.: </label>
+   <span>{family.VisaNo}</span>
+   </td>
+   <td style=""width: 45%;"">
+   <label>Visa Expiry Date: </label>
+   <span>{fexpiryDate}</span>
+   </td>
+</tr>
+<tr>
+   <td style=""width: 45%;"">
+   <label>Entry airport of Vietnam immigration: </label>
+   <span>{family.AirportOfEntry}</span>
+   </td>
+</tr>
+<tr>
+   <td style=""width: 45%;"">
+   <label>Arrival Date and Time: </label>
+   <span>{farrivalDateTime}</span>
+   </td>
+   <td style=""width: 45%;"">
+   <label>Arrival Flight No.: </label>
+   <span>{family.ArrivalFlightNo}</span>
+   </td>
+</tr>
+<tr>
+   <td style=""width: 45%;"">
+   <label>Departure Date and Time: </label>
+   <span>{fdepartureDateTime}</span>
+   </td>
+   <td style=""width: 45%;"">
+   <label>Departure Flight No.: </label>
+   <span>{family.DepartureFlightNo}</span>
+   </td>
+</tr>
+<td colspan=""2"">
+<label>Meal Preferences: </label>
+<span>{family.Meal}</span>
+</td>
+</table>
