@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d8d8d8;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: NotoSansTC-Bold, 'Noto Sans TC';
+        font-size: 14px;
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-8 {
+        fill: #f7941d;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-8" width="125" height="40" rx="6.49" ry="6.49"/>
+    <text class="cls-3" transform="translate(19.74 25.63)"><tspan class="cls-5" x="0" y="0">Re</tspan><tspan class="cls-2" x="17.21" y="0">gi</tspan><tspan class="cls-7" x="29.82" y="0">s</tspan><tspan class="cls-4" x="36.36" y="0">t</tspan><tspan x="41.9" y="0">er N</tspan><tspan class="cls-6" x="69.82" y="0">o</tspan><tspan x="78.38" y="0">w</tspan></text>
+  </g>
+  <polyline class="cls-1" points="-53 39 -53 40 587 40 587 39 -53 39"/>
+</svg>
